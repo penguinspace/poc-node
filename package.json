@@ -1,0 +1,29 @@
+{
+  "name": "poc-node",
+  "description": "Proof of Concept for NodeJS",
+  "version": "0.0.1",
+  "author": "Top <topologician@gmail.com>",
+  "contributors": [
+    "Bowlingnoi <bbluebowmonkey@gmail.com>",
+    "Top <topologician@gmail.com>"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/penguinspace/poc-node",
+  "private": true,
+  "keywords": [
+    "monkeyspace",
+    "poc",
+    "node",
+    "web"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  }
+}
